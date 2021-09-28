@@ -297,8 +297,8 @@ def es20():
     print('\n'.join(lines))
 
 
-# es20: String Formatting
-def es20():
+# es21: String Formatting
+def es21():
     def print_formatted(number):
     # your code goes here
         max_width = len(bin(number))-2
@@ -309,8 +309,8 @@ def es20():
         n = int(input())
         print_formatted(n)
 
-# es21: Introduction to Sets 
-def es21():
+# es22: Introduction to Sets 
+def es22():
     def average(array):
         # your code goes here
         h = set(array)
@@ -322,8 +322,8 @@ def es21():
         result = average(arr)
         print(result)
 
-# es22:  Merge the Tools
-def es22():
+# es23:  Merge the Tools
+def es23():
     def once_string(string, start=0, end=None):
         if end is None:
             end = len(string)
@@ -346,8 +346,8 @@ def es22():
         merge_the_tools(string, k)
 
 
-# es23: The Minion Game
-def es23():
+# es24: The Minion Game
+def es24():
     def minion_game(string):
     # your code goes here
         letter_vowels = {'A', 'E', 'I', 'O', 'U'}
@@ -365,8 +365,8 @@ def es23():
         s = input()
         minion_game(s)
 
-# es24: Capitalize!
-def es24():
+# es25: Capitalize!
+def es25():
     import math
     import os
     import random
@@ -392,8 +392,8 @@ def es24():
         fptr.close()
 
 
-# es25: Alphabet Rangoli
-def es25():
+# es26: Alphabet Rangoli
+def es26():
     def add_rangoli(string, ch):
         l = len(string)
         if l%2 == 0:
@@ -433,8 +433,8 @@ def es25():
         n = int(input())
         print_rangoli(n)
 
-# es26: Symmmetric Difference
-def es26():
+# es27: Symmmetric Difference
+def es27():
         # Enter your code here. Read input from STDIN. Print output to STDOUT
     m = input()
     m_set = set(map(int, input().split()))
@@ -443,8 +443,8 @@ def es26():
     for val in sorted(m_set.union(n_set).difference(m_set.intersection(n_set))):
         print(val)
 
-# es27: No Idea!
-def es27():
+# es28: No Idea!
+def es28():
         # Enter your code here. Read input from STDIN. Print output to STDOUT
     input()
     n_arr= map(int, input().split())
@@ -459,8 +459,8 @@ def es27():
     print(ret)
 
 
-# es28: Set. add()!
-def es28():
+# es29: Set. add()!
+def es29():
     # Enter your code here. Read input from STDIN. Print output to STDOUT
     n = int(input())
     cs = set()
@@ -469,8 +469,8 @@ def es28():
     print(len(cs))
 
 
-# es29: Set .discard(), .remove() & .pop()
-def es29():
+# es30: Set .discard(), .remove() & .pop()
+def es30():
     n = int(input())
     s = set(map(int, input().split()))
     n_op = int(input())
@@ -487,8 +487,8 @@ def es29():
         
     print(sum(s))
 
-# es30: Set .union() Operation
-def es30():
+# es31: Set .union() Operation
+def es31():
     # Enter your code here. Read input from STDIN. Print output to STDOUT
     input()
     e = set(input().split())
@@ -497,8 +497,8 @@ def es30():
     print(len(e|f))
 
 
-# es31: The Captain's Room
-def es31():
+# es32: The Captain's Room
+def es32():
     # Enter your code here. Read input from STDIN. Print output to STDOUT
     k = input()
     rooms = list(map(int, input().split()))
@@ -512,8 +512,8 @@ def es31():
     print(captain.pop())
 
 
-# es 32: Set Mutations
-def es32():
+# es 33: Set Mutations
+def es33():
     # Enter your code here. Read input from STDIN. Print output to STDOUT
     input()
     a = set(map(int,input().split()))
@@ -532,8 +532,8 @@ def es32():
     print(sum(a))
 
 
-# es33: Set .symmetric_difference() Operation
-def es33():
+# es34: Set .symmetric_difference() Operation
+def es34():
     # Enter your code here. Read input from STDIN. Print output to STDOUT
     input()
     e = set(input().split())
@@ -542,8 +542,8 @@ def es33():
     print(len(e^f))
 
 
-# es34: Set .difference() Operation
-def es34():
+# es35: Set .difference() Operation
+def es35():
     # Enter your code here. Read input from STDIN. Print output to STDOUT
     input()
     e = set(input().split())
@@ -552,8 +552,8 @@ def es34():
     print(len(e-f))
 
 
-# es35: Set -intersection() Operation
-def es35():
+# es36: Set .intersection() Operation
+def es36():
     # Enter your code here. Read input from STDIN. Print output to STDOUT
     input()
     e = set(input().split())
@@ -562,8 +562,8 @@ def es35():
     print(len(e&f))
 
 
-# es36: Collections.namedtuple()
-def es36():
+# es37: Collections.namedtuple()
+def es37():
     # Enter your code here. Read input from STDIN. Print output to STDOUT
     from collections import namedtuple
     n = int(input())
@@ -571,8 +571,8 @@ def es36():
     print(sum([float(Studente(*input().split()).MARKS) for _ in range(n)])/n)
 
 
-# es37: DefaultDict Tutorial
-def es37():
+# es38: DefaultDict Tutorial
+def es38():
     # Enter your code here. Read input from STDIN. Print output to STDOUT
     from collections import defaultdict
 
@@ -586,8 +586,8 @@ def es37():
         print(f"{' '.join(map(str, sorted(a[w])))}" if len(a[w])>0 else "-1")
 
 
-# es38: collections.Counter()
-def es38():
+# es389: collections.Counter()
+def es39():
     # Enter your code here. Read input from STDIN. Print output to STDOUT
     from collections import Counter
 
@@ -603,8 +603,8 @@ def es38():
     print(tot)
 
 
-# es39: Check Strict Superset
-def es39():
+# es40: Check Strict Superset
+def es40():
     # Enter your code here. Read input from STDIN. Print output to STDOUT
     a = set(map(int, input().split()))
     n = int(input())
@@ -619,8 +619,8 @@ def es39():
     print(ret)
 
 
-# es40: Check Subset
-def es40():
+# es41: Check Subset
+def es41():
     # Enter your code here. Read input from STDIN. Print output to STDOUT
     tc = int(input())
     for _ in range(tc):
@@ -630,8 +630,8 @@ def es40():
         b = set(map(int, input().split()))
         print(a.intersection(b)==a)
 
-# es41: Company Logo
-def es41():
+# es42: Company Logo
+def es42():
     import math
     import os
     import random
@@ -651,8 +651,8 @@ def es41():
                 break
 
 
-# es42: Piling Up!
-def es42():
+# es43: Piling Up!
+def es43():
     # Enter your code here. Read input from STDIN. Print output to STDOUT
     t = int(input())
     for _ in range(t):
@@ -667,8 +667,8 @@ def es42():
         print(out)
 
 
-# es43: Collections.Dequeue()
-def es43():
+# es44: Collections.Deque()
+def es44():
     # Enter your code here. Read input from STDIN. Print output to STDOUT
     from collections import deque
     n = int(input())
@@ -689,8 +689,8 @@ def es43():
     print(' '.join(d))
 
 
-# es44: Word Order
-def es44():
+# es45: Word Order
+def es45():
     # Enter your code here. Read input from STDIN. Print output to STDOUT
     from collections import OrderedDict
     words = OrderedDict()
@@ -701,8 +701,8 @@ def es44():
     print(f"{len(words)}\n{' '.join(map(str, words.values()))}")
 
 
-# es45: Collections.OrderedDict()
-def es45():
+# es46: Collections.OrderedDict()
+def es46():
     # Enter your code here. Read input from STDIN. Print output to STDOUT
     from collections import OrderedDict
     summary = OrderedDict()
@@ -717,8 +717,8 @@ def es45():
         print(f"{k} {summary[k]}")
 
 
-# es46: Calendar Module
-def es46():
+# es47: Calendar Module
+def es47():
     # Enter your code here. Read input from STDIN. Print output to STDOUT
     import calendar
     mm, dd, yyyy = map(int,input().split())
@@ -726,8 +726,8 @@ def es46():
     print(week[calendar.weekday(yyyy, mm, dd)])
 
 
-# es47: Time Delta
-def es47():
+# es48: Time Delta
+def es48():
     import math
     import os
     import random
@@ -758,8 +758,8 @@ def es47():
         fptr.close()
 
 
-# es48: Exceptions
-def es48():
+# es49: Exceptions
+def es49():
     # Enter your code here. Read input from STDIN. Print output to STDOUT
     t = int(input())
     for _ in range(t):
@@ -770,8 +770,8 @@ def es48():
             print(f"Error Code: {e}")
 
 
-# es49: Zipped!
-def es49():
+# es50: Zipped!
+def es50():
     # Enter your code here. Read input from STDIN. Print output to STDOUT
     n, x = map(int, input().split())
     marks = [list(map(float,input().split())) for _ in range(x)]
@@ -782,8 +782,8 @@ def es49():
         print("{:.1f}".format(avg))
 
 
-# es50: Athlete Sort
-def es50():
+# es51: Athlete Sort
+def es51():
     import math
     import os
     import random
@@ -809,14 +809,14 @@ def es50():
             print(' '.join(map(str, l)))
 
 
-# es51: ginortS
-def es51():
+# es52: ginortS
+def es52():
     # Enter your code here. Read input from STDIN. Print output to STDOUT
     print(''.join(sorted(sorted(input()), key=lambda c: (c.islower(), c.isalpha(), c.isdigit() and int(c)%2==1), reverse=True)))
 
 
-# es52: Map and Lambda functions
-def es52():
+# es53: Map and Lambda functions
+def es53():
     cube = lambda x: x**3# complete the lambda function 
     fib_base = [0, 1]
     def fibonacci(n):
@@ -839,8 +839,8 @@ def es52():
         print(list(map(cube, fibonacci(n))))
 
 
-# es53: Birthday Candles
-def es53():
+# es54: Birthday Candles
+def es54():
     import math
     import os
     import random
@@ -872,8 +872,8 @@ def es53():
         fptr.close()
 
 
-# es54: Detecting floating point numbers
-def es54():
+# es55: Detecting floating point numbers
+def es55():
     # Enter your code here. Read input from STDIN. Print output to STDOUT
 
     import re
@@ -884,14 +884,14 @@ def es54():
         print(bool(rm))
 
 
-# es55: re.Split()
-def es55():
+# es56: re.Split()
+def es56():
     regex_pattern = r"\.|,"	# Do not delete 'r'.
     import re
     print("\n".join(re.split(regex_pattern, input())))
 
-# es 56: Group(), Groups() & Groupdict()
-def es56():
+# es 57: Group(), Groups() & Groupdict()
+def es57():
     # Enter your code here. Read input from STDIN. Print output to STDOUT
     import re
     pattern = r".*?(?P<ch>[A-Za-z0-9])(?P=ch)+"
@@ -899,8 +899,8 @@ def es56():
     print(match.groupdict().get('ch', ['-1'])[0] if match is not None else '-1')
 
 
-# es57: Re.findall() & Re.finditer()
-def es57():
+# es58: Re.findall() & Re.finditer()
+def es58():
     # Enter your code here. Read input from STDIN. Print output to STDOUT
     import re
     reg = r"(?<=[^aeiouAEIOU])([aeiouAEIOU][aeiouAEIOU]+)(?=[^aeiouAEIOU])"
@@ -912,8 +912,8 @@ def es57():
             print(m)
 
 
-# es58: Re.start() & Re.end()
-def es58():
+# es59: Re.start() & Re.end()
+def es59():
     # Enter your code here. Read input from STDIN. Print output to STDOUT
     import re
     s = input()
@@ -933,23 +933,23 @@ def es58():
             start += match.start()+1
 
 
-# es59: Regex Substitution
-def es59():
+# es60: Regex Substitution
+def es60():
     # Enter your code here. Read input from STDIN. Print output to STDOUT
     import re
     for _ in range(int(input())):
         print(re.sub(r"(?<=\s)(&&)(?:\s)", 'and ', re.sub(r"(?<=\s)(\|\|)(?:\s)", 'or ', input())))
 
 
-# es60: Validating Roman Numbers
-def es60():
+# es61: Validating Roman Numerals
+def es61():
     regex_pattern = r"^M{0,3}(?:C[MD]|D?C{0,3})(?:X[CL]|L?X{0,3})(?:I[XV]|V?I{0,3})$"
     import re
     print(str(bool(re.match(regex_pattern, input()))))
 
 
-# es61: HTML Parser - part1
-def es61():
+# es62: HTML Parser - part1
+def es62():
     from html.parser import HTMLParser
 
     # create a subclass and override the handler methods
@@ -977,8 +977,8 @@ def es61():
         #print(l)
         parser.feed(l)
 
-# es62: HTML Parser -part2
-def es62():
+# es63: HTML Parser -part2
+def es63():
     from html.parser import HTMLParser
 
     class MyHTMLParser(HTMLParser):
@@ -1009,8 +1009,8 @@ def es62():
     parser.close()
 
 
-# es63: Detect HTML Tags, Attributes and Attribute Values
-def es63():
+# es64: Detect HTML Tags, Attributes and Attribute Values
+def es64():
     # Enter your code here. Read input from STDIN. Print output to STDOUT
     from html.parser import HTMLParser
 
@@ -1035,8 +1035,8 @@ def es63():
         mp.feed(line)
 
 
-# es64: Validating UID
-def es64():
+# es65: Validating UID
+def es65():
     # Enter your code here. Read input from STDIN. Print output to STDOUT
     import re
     for _ in range(int(input())):
@@ -1046,8 +1046,8 @@ def es64():
             print("Invalid")
 
 
-# es65: Validating Credit Card Numbers
-def es65():
+# es66: Validating Credit Card Numbers
+def es66():
     # Enter your code here. Read input from STDIN. Print output to STDOUT
     import re
 
@@ -1057,8 +1057,8 @@ def es65():
         print("Valid" if match else "Invalid")
 
 
-# es66: Validating Postal Codes
-def es66():
+# es67: Validating Postal Codes
+def es67():
     regex_integer_in_range = r"^[1-9][0-9]{5}$"	# Do not delete 'r'.
     regex_alternating_repetitive_digit_pair = r"(\d)(?=\d\1)"	# Do not delete 'r'.
 
@@ -1069,8 +1069,8 @@ def es66():
     and len(re.findall(regex_alternating_repetitive_digit_pair, P)) < 2)
 
 
-# es67: Matrix Script
-def es67():
+# es68: Matrix Script
+def es68():
 
     import math
     import os
@@ -1103,8 +1103,8 @@ def es67():
     replace_sym(''.join(for_column))
 
 
-# es68: XML 1 -find the score
-def es68():
+# es69: XML 1 -find the score
+def es69():
     import sys
     import xml.etree.ElementTree as etree
 
@@ -1118,8 +1118,8 @@ def es68():
         root = tree.getroot()
         print(get_attr_number(root))
 
-# es69: XML2 - Find the Maximum Depth
-def es69():
+# es70: XML2 - Find the Maximum Depth
+def es70():
     import xml.etree.ElementTree as etree
 
     maxdepth = 0
@@ -1143,8 +1143,8 @@ def es69():
         depth(tree.getroot(), -1)
         print(maxdepth)
 
-# es70: Standardize Mobile Number Using Decorators
-def es70():
+# es71: Standardize Mobile Number Using Decorators
+def es71():
     def wrapper(f):
     #print(f"Called wrapper with function: {f}")
         def fun(l):
@@ -1162,8 +1162,8 @@ def es70():
         l = [input() for _ in range(int(input()))]
         sort_phone(l) 
 
-# es71: Decorators 2 - Name Directory
-def es71():
+# es72: Decorators 2 - Name Directory
+def es72():
     import operator
 
     def person_lister(f):
@@ -1182,8 +1182,8 @@ def es71():
         people = [input().split() for i in range(int(input()))]
         print(*name_format(people), sep='\n')
 
-# es72: Array
-def es72():
+# es73: Array
+def es73():
     import numpy
 
     def arrays(arr):
@@ -1196,14 +1196,14 @@ def es72():
     print(result)
 
 
-# es73: Shape() and reShape()
-def es73():
+# es74: Shape() and reShape()
+def es74():
     import numpy
     print(numpy.array(list(map(int, input().split()))).reshape(3,3))
 
 
-# es74: Transpose and Flatten
-def es74():
+# es75: Transpose and Flatten
+def es75():
     import numpy
 
     mat = [list(map(int, input().split())) for _ in range(int(input().split()[0]))]
@@ -1211,8 +1211,8 @@ def es74():
     print(numpy.array(mat).flatten())
 
 
-# es75: Concatenate
-def es75():
+# es76: Concatenate
+def es76():
     import numpy
     n, m, _ = map(int, input().split())
     arr1 = numpy.array([list(map(int, input().split()))for _ in range(n)])
@@ -1220,8 +1220,8 @@ def es75():
     print(numpy.concatenate((arr1,arr2)))
 
 
-# es76: Zeros and Ones
-def es76():
+# es77: Zeros and Ones
+def es77():
     import numpy
 
 
@@ -1230,15 +1230,15 @@ def es76():
     print(numpy.ones(shape, int))
 
 
-# es77: Eye and Identity
-def es77():
+# es78: Eye and Identity
+def es78():
     import numpy
     numpy.set_printoptions(legacy='1.13', suppress= True)
     print(numpy.eye(*map(int, input().split())))
 
 
-# es78: Array Mathematichs
-def es78():
+# es79: Array Mathematichs
+def es79():
     import numpy
     numpy.set_printoptions(legacy='1.13', suppress=True)
     n, m = map(int, input().split())
@@ -1250,8 +1250,8 @@ def es78():
         print(f(a,b)[0])
 
 
-# es79: Floor, Ceil and Rint
-def es79():
+# es80: Floor, Ceil and Rint
+def es80():
     import numpy
     numpy.set_printoptions(legacy='1.13', suppress=True)
     a = numpy.array(list(map(float, input().split())))
@@ -1260,8 +1260,8 @@ def es79():
     print(numpy.rint(a))
 
 
-# es80: Sum and Prod
-def es80():
+# es81: Sum and Prod
+def es81():
     import numpy
 
     print(numpy.product(
@@ -1275,8 +1275,8 @@ def es80():
         )
 
 
-# es 81: Min and Max
-def es81():
+# es 82: Min and Max
+def es82():
     import numpy
 
     print(numpy.max(
@@ -1290,8 +1290,8 @@ def es81():
     )
 
 
-# es82: Mean, Var, and Std
-def es82():
+# es83: Mean, Var, and Std
+def es83():
     import numpy
     import math
     a = numpy.array(
@@ -1301,8 +1301,8 @@ def es82():
     print(numpy.var(a, axis=0))
     print(round(numpy.std(a), 11))
 
-# es83: Dot and Cross
-def es83():
+# es84: Dot and Cross
+def es84():
     import numpy
     n = int(input())
     arr1 = numpy.array([list(map(int, input().split()))for _ in range(n)])
@@ -1310,8 +1310,8 @@ def es83():
     print(numpy.matmul(arr1, arr2))
 
 
-# es84: Inner and Outer
-def es84():
+# es85: Inner and Outer
+def es85():
     import numpy
     arr1 = numpy.array(list(map(int, input().split())))
     arr2 = numpy.array(list(map(int, input().split())))
@@ -1319,16 +1319,16 @@ def es84():
     print(numpy.outer(arr1, arr2))
 
 
-# es85: Polynomials
-def es85():
+# es86: Polynomials
+def es86():
     import numpy
     pol = list(map(float, input().split()))
     x = int(input())
     print(numpy.polyval(pol, x))
 
 
-# es86: Linear Algebra
-def es86():
+# es87: Linear Algebra
+def es87():
     import numpy
 
     n = int(input())
@@ -1336,8 +1336,8 @@ def es86():
     print(round(numpy.linalg.det(arr1), 2))
 
 
-# es87: Recursive Digit Sum
-def es87():
+# es88: Recursive Digit Sum
+def es88():
     import math
     import os
     import random
@@ -1367,8 +1367,8 @@ def es87():
         fptr.close()
 
 
-# es88: number Line Jumps
-def es88():
+# es89: number Line Jumps
+def es89():
     import math
     import os
     import random
@@ -1412,8 +1412,8 @@ def es88():
         fptr.close()
 
 
-# es89: Viral Advertising
-def es89():
+# es90: Viral Advertising
+def es90():
     import math
     import os
     import random
@@ -1452,8 +1452,8 @@ def es89():
         fptr.close()
 
 
-# es90: Insertion sort -part 1
-def es90():
+# es91: Insertion sort -part 1
+def es91():
     import math
     import os
     import random
@@ -1496,8 +1496,8 @@ def es90():
         insertionSort1(n, arr)
 
 
-# es91: Insertion Sort -part 2
-def es91():
+# es92: Insertion Sort -part 2
+def es92():
     import math
     import os
     import random
@@ -1543,21 +1543,6 @@ def es91():
         insertionSort2(n, arr)
 
 
-# es92: Nested Lists
-def es92():
-    if __name__ == '__main__':
-        names = []
-        scores = []
-        sec_min = None
-        for _ in range(int(input())):
-            names.append(input())
-            score = float(input())
-            scores.append(score)
-        sec_min = min([s for s in scores if s > min(scores)])
-        ret = [names[i] for i in range(len(scores)) if scores[i]==sec_min]
-        for n in sorted(ret):
-            print(n)
-
 # es93: Lists
 def es93():
     if __name__ == '__main__':
@@ -1593,19 +1578,34 @@ def es94():
         print(hash(tuple(integer_list)))
 
 
-# es95: Any or All
+# 95: Validating phone numbers
 def es95():
     # Enter your code here. Read input from STDIN. Print output to STDOUT
-    def pal_int(n):
-        n = str(n)
-        while len(n)>1:
-            if n[0]!=n[-1]:
-                return False
-            n = n[1:-1]
-        return True
-    input()
-    integers = list(map(int, input().split()))
-    if all(map(lambda i: i>=0, integers)) and any(map(pal_int, integers)):
-        print(True)
-    else:
-        print(False)
+    import re
+    for _ in range(int(input())):
+        if re.match(r"[789]{1}\d{9}$", input()):
+            print('YES')
+        else:
+            print('NO')
+
+
+# es96:Validating and Parsing Email Addresses
+def es96():
+    # Enter your code here. Read input from STDIN. Print output to STDOUT
+    import re
+    pattern = r"[A-Za-z]{1}[a-zA-Z0-9\.-_]+ <([a-z]{1}[a-z0-9\.\-_]+@[a-z]+\.[a-z]{1,3})>$"
+    for _ in range(int(input())):
+        line = input()
+        if re.match(pattern , line):
+            print(line)
+
+
+# es97: Hex Color Code
+def es97():
+    # Enter your code here. Read input from STDIN. Print output to STDOUT
+    import re
+    pattern = r"([\w-]+:.*?|,\s+)(#{1}[0-9A-Fa-f]{6}|#{1}[0-9A-Fa-f]{3})"
+    for _ in range(int(input())):
+        for c in re.findall(pattern, input()):
+            print(c[-1])
+            
