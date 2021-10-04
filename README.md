@@ -6,4 +6,4 @@ Repository for the first homework of ADM, in this homework I've solved 97 Hacker
     def esnum():
         ...
     ```
-* [total_submissions.pdf](total_submission.pdf) contains the printed browser pages in pdf format of the 'submissions' section of Hackerrank as required. (They are made selecting 'sort by challenge' in order to show only the solved challenges)
+* [total_submissions.pdf](total_submissions.pdf) contains the printed browser pages in pdf format of the 'submissions' section of Hackerrank as required. (They are made selecting 'sort by challenge' in order to show only the solved challenges)
