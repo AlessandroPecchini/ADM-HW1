@@ -1608,4 +1608,3 @@ def es97():
     for _ in range(int(input())):
         for c in re.findall(pattern, input()):
             print(c[-1])
-            
