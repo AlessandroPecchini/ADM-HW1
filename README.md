@@ -1,6 +1,6 @@
 # ADM-HW1
 Repository for the first homework of ADM, in this homework I've solved 97 Hackerrank challenges, the two files inside the repository are:
-* [script.py](script.py) contains the code for all the excercises in the form 
+* [scripts.py](scripts.py) contains the code for all the excercises in the form 
     ```python
     #esnum: Hackerrank title
     def esnum():
